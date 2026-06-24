@@ -23,10 +23,6 @@
     --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
-    --text-6xl: 3.75rem;
-    --text-6xl--line-height: 1;
-    --text-7xl: 4.5rem;
-    --text-7xl--line-height: 1;
     --text-8xl: 6rem;
     --text-8xl--line-height: 1;
     --text-9xl: 8rem;
@@ -36,7 +32,6 @@
     --font-weight-medium: 500;
     --font-weight-bold: 700;
     --font-weight-extrabold: 800;
-    --font-weight-black: 900;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --font-montserrat: "Montserrat", sans-serif;
@@ -209,17 +204,11 @@
   .m-10 {
     margin: calc(var(--spacing) * 10);
   }
-  .m-30 {
-    margin: calc(var(--spacing) * 30);
-  }
   .mx-auto {
     margin-inline: auto;
   }
   .my-2 {
     margin-block: calc(var(--spacing) * 2);
-  }
-  .my-4 {
-    margin-block: calc(var(--spacing) * 4);
   }
   .my-5 {
     margin-block: calc(var(--spacing) * 5);
@@ -236,23 +225,8 @@
   .my-30 {
     margin-block: calc(var(--spacing) * 30);
   }
-  .mt-2 {
-    margin-top: calc(var(--spacing) * 2);
-  }
-  .mt-3 {
-    margin-top: calc(var(--spacing) * 3);
-  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
-  }
-  .mt-7 {
-    margin-top: calc(var(--spacing) * 7);
-  }
-  .mt-10 {
-    margin-top: calc(var(--spacing) * 10);
-  }
-  .mt-15 {
-    margin-top: calc(var(--spacing) * 15);
   }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
@@ -260,14 +234,8 @@
   .mt-25 {
     margin-top: calc(var(--spacing) * 25);
   }
-  .mt-30 {
-    margin-top: calc(var(--spacing) * 30);
-  }
-  .mt-40 {
-    margin-top: calc(var(--spacing) * 40);
-  }
-  .mb-20 {
-    margin-bottom: calc(var(--spacing) * 20);
+  .mb-10 {
+    margin-bottom: calc(var(--spacing) * 10);
   }
   .flex {
     display: flex;
@@ -278,15 +246,6 @@
   .h-300 {
     height: calc(var(--spacing) * 300);
   }
-  .h-\[00px\] {
-    height: 00px;
-  }
-  .h-\[19vh\] {
-    height: 19vh;
-  }
-  .h-\[20\.5px\] {
-    height: 20.5px;
-  }
   .h-\[20px\] {
     height: 20px;
   }
@@ -296,47 +255,11 @@
   .h-\[80vh\] {
     height: 80vh;
   }
-  .h-\[200\] {
-    height: 200;
-  }
-  .h-\[500px\] {
-    height: 500px;
-  }
-  .h-\[510px\] {
-    height: 510px;
-  }
   .h-\[511px\] {
     height: 511px;
   }
-  .h-\[521px\] {
-    height: 521px;
-  }
-  .h-\[525px\] {
-    height: 525px;
-  }
-  .h-\[550px\] {
-    height: 550px;
-  }
-  .h-\[600px\] {
-    height: 600px;
-  }
-  .h-\[2000px\] {
-    height: 2000px;
-  }
-  .h-\[5500px\] {
-    height: 5500px;
-  }
-  .h-\[px\] {
-    height: px;
-  }
-  .w-\[5px\] {
-    width: 5px;
-  }
   .w-\[80\%\] {
     width: 80%;
-  }
-  .w-\[80\] {
-    width: 80;
   }
   .w-\[80vw\] {
     width: 80vw;
@@ -344,29 +267,8 @@
   .w-\[170px\] {
     width: 170px;
   }
-  .w-\[500px\] {
-    width: 500px;
-  }
-  .w-\[510px\] {
-    width: 510px;
-  }
   .w-\[511px\] {
     width: 511px;
-  }
-  .w-\[520px\] {
-    width: 520px;
-  }
-  .w-\[521px\] {
-    width: 521px;
-  }
-  .w-\[535px\] {
-    width: 535px;
-  }
-  .w-\[600px\] {
-    width: 600px;
-  }
-  .w-\[5010px\] {
-    width: 5010px;
   }
   .w-full {
     width: 100%;
@@ -393,9 +295,6 @@
   }
   .items-end {
     align-items: flex-end;
-  }
-  .justify-around {
-    justify-content: space-around;
   }
   .justify-between {
     justify-content: space-between;
@@ -427,14 +326,6 @@
     border-inline-style: var(--tw-border-style);
     border-inline-width: 0px;
   }
-  .border-y {
-    border-block-style: var(--tw-border-style);
-    border-block-width: 1px;
-  }
-  .border-y-0 {
-    border-block-style: var(--tw-border-style);
-    border-block-width: 0px;
-  }
   .border-amber-50 {
     border-color: var(--color-amber-50);
   }
@@ -452,9 +343,6 @@
   }
   .bg-center {
     background-position: center;
-  }
-  .px-4 {
-    padding-inline: calc(var(--spacing) * 4);
   }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
@@ -477,6 +365,18 @@
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
+  .pb-5 {
+    padding-bottom: calc(var(--spacing) * 5);
+  }
+  .pb-10 {
+    padding-bottom: calc(var(--spacing) * 10);
+  }
+  .pb-15 {
+    padding-bottom: calc(var(--spacing) * 15);
+  }
+  .pb-30 {
+    padding-bottom: calc(var(--spacing) * 30);
+  }
   .text-center {
     text-align: center;
   }
@@ -489,9 +389,6 @@
   .font-\[\'Montserrat\'\] {
     font-family: 'Montserrat';
   }
-  .font-montserrat {
-    font-family: var(--font-montserrat);
-  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -503,14 +400,6 @@
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
-  }
-  .text-6xl {
-    font-size: var(--text-6xl);
-    line-height: var(--tw-leading, var(--text-6xl--line-height));
-  }
-  .text-7xl {
-    font-size: var(--text-7xl);
-    line-height: var(--tw-leading, var(--text-7xl--line-height));
   }
   .text-8xl {
     font-size: var(--text-8xl);
@@ -531,18 +420,6 @@
   .text-xl {
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
-  }
-  .leading-0 {
-    --tw-leading: 0;
-    line-height: 0;
-  }
-  .leading-0\.5 {
-    --tw-leading: calc(var(--spacing) * 0.5);
-    line-height: calc(var(--spacing) * 0.5);
-  }
-  .font-black {
-    --tw-font-weight: var(--font-weight-black);
-    font-weight: var(--font-weight-black);
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -632,6 +509,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 body {
+  margin-bottom: calc(var(--spacing) * 10);
   background-color: var(--color-black);
   font-family: var(--font-montserrat);
 }
@@ -655,10 +533,6 @@ body {
   inherits: false;
   initial-value: solid;
 }
-@property --tw-leading {
-  syntax: "*";
-  inherits: false;
-}
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
@@ -679,7 +553,6 @@ body {
       --tw-translate-y: 0;
       --tw-translate-z: 0;
       --tw-border-style: solid;
-      --tw-leading: initial;
       --tw-font-weight: initial;
       --tw-tracking: initial;
       --tw-outline-style: solid;

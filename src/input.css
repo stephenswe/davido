@@ -7,5 +7,5 @@
 }
 
 body{
-    @apply font-montserrat bg-black;
+    @apply font-montserrat bg-black mb-10;
 }
